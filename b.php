@@ -5,6 +5,7 @@ echo color("green","# # # # # # # # # # # # # # # # # # # # # # # \n");
 echo color("yellow","[•]  Time  : ".date('[d-m-Y] [H:i:s]')."   \n");
 echo color("yellow","[•]              waiting proses.....           \n");
 echo color("yellow","[•] cara menulis nomor pakai 62xxxxxxxxxx \n");
+echo color("yellow","[•] Jangan Lupa Follow IG @Bananacreamy \n");
 echo color("green","# # # # # # # # # # # # # # # # # # # # # # # \n");
 function change(){
         $nama = nama();
