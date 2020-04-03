@@ -141,10 +141,10 @@ function change(){
          echo "\nULANG GA? (Y/G): ";
          $pilih = trim(fgets(STDIN));
          if($pilih == "y" || $pilih == "Y"){
-         echo color ("cyan","\n==============BANANACREAMY IN HERE==============\n";
+         echo "\n==============BANANACREAMY IN HERE==============\n";
          goto ulang;
          }else{
-         echo color ("cyan","\n==============BANANACREAMY IN HEREP==============\n";
+         echo "\n==============BANANACREAMY IN HEREP==============\n";
          goto ulang;
   }
  }
