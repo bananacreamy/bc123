@@ -2,13 +2,13 @@
 date_default_timezone_set('Asia/Jakarta');
 include "function.php";
 echo color("green","# # # # # # # # # # # # # # # # # # # # # # # \n");
-echo color("blue","[♥]  Time  : ".date('[d-m-Y] [H:i:s]')."   \n");
-echo color("red","[♡] TOLONG DIBACA DULU SEBELUM MENGGUNAKAN SC \n");
+echo color("blue","  [♥]  Time  : ".date('[d-m-Y] [H:i:s]')."   \n");
+echo color("red","   [♡] TOLONG DIBACA DULU SEBELUM MENGGUNAKAN SC \n");
 echo color("purple","[♥] NGETIK NOMORNYA BEGINI YA 62xxxxxxxxxx \n");
-echo color("nevy","[♡] JANGAN LUPA FOLLOW IG GUE YA : @Bananacreamy \n");
+echo color("nevy","  [♡] JANGAN LUPA FOLLOW IG GUE YA : @Bananacreamy \n");
 echo color("yellow","[♥] KADANG AMBIL OTOMATIS, KADANG MANUAL NIH SC \n");
-echo color("white","[♡] MAKLUM LAH NAMANYA JUGA SC GRATISAN \n");
-echo color("cyan","[♥] BACA DOA DULU SEBELUM MULAI , OKAY?^.^ \n");
+echo color("white"," [♡] MAKLUM LAH NAMANYA JUGA SC GRATISAN \n");
+echo color("cyan","  [♥] BACA DOA DULU SEBELUM MULAI , OKAY?^.^ \n");
 echo color("green","# # # # # # # # # # # # # # # # # # # # # # # \n");
 function change(){
         $nama = nama();
@@ -141,10 +141,10 @@ function change(){
          echo "\nULANG GA? (Y/G): ";
          $pilih = trim(fgets(STDIN));
          if($pilih == "y" || $pilih == "Y"){
-         echo "\n==============BANANACREAMY IN HERE==============\n";
+         echo color ("cyan","\n==============BANANACREAMY IN HERE==============\n";
          goto ulang;
          }else{
-         echo "\n==============BANANACREAMY IN HEREP==============\n";
+         echo color ("cyan","\n==============BANANACREAMY IN HEREP==============\n";
          goto ulang;
   }
  }
